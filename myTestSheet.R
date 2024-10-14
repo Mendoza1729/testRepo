@@ -1,19 +1,15 @@
 rm(list=ls())
 library(usethis)
-library(plyr)
-library(rcompas)
-library(rcompasRevised)
-library(tidyverse)
-
-#make sure files are correct
-
-# air <- AirPassengers
-# hist(air)
-# 
-# rm(air)
-# use_git_config(user.name = "Mendoza1729", user.email = "cmendoz1729@gmail.com")
+# library(plyr)
+# library(rcompas)
+# library(rcompasRevised)
+# library(tidyverse)
 
 
-# use_git()
+# edit_git_config() # username and email
+# use_git() # adds repository
 
 # create_github_token()
+
+library(gitcreds)
+gitcreds_set() ### will need to add token ()

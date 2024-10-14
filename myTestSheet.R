@@ -13,3 +13,6 @@ library(usethis)
 
 library(gitcreds)
 gitcreds_set() ### will need to add token ()
+
+
+use_github()
